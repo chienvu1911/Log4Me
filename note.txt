@@ -30,4 +30,8 @@ hoặc môi trường hiện tại và cũ hơn.
 - babel-loader: webpack loader that will transpile our ES6 code for us
 - We also need to set up our Babel config file, create a new file in the root directory called .babelrc
 
+8. React Router
+- BrowserRouter will be the base configuration. Anything outside of this component will render on every page
+- Switch will wrap the dynamic routes, This component will activate the correct route, much like the JavaScript switch statement.
+- Route component will configure specific routes and wrap the component that should render
 

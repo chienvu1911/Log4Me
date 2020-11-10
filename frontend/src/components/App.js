@@ -1,22 +1,19 @@
 import React from "react";
-import "../css/app.scss";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
-    <div className="full-screen">
-      <div>
-        <h1>
-          React Page {" "}
-        </h1>
-        <br />
-        <a
-          className="button-line"
-          href="https://github.com/deityhub"
-          target="_blank"
-        >
-          Know more now
-        </a>
-      </div>
+    <div>
+      <h1 className="text-center">Log4Me</h1>
+      
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/contact" component={ContactPage} />
+        </Switch>
+      </Router>
     </div>
   );
 };

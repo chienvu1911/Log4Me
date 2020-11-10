@@ -1,0 +1,5 @@
+// This configuration will ensure that Babel transpiles our React code, 
+// which is JSX and any other ES6+ code we have to ES5 code.
+{
+    "presets": ["@babel/env", "@babel/react"]
+}

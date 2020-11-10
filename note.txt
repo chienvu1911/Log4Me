@@ -1,0 +1,33 @@
+1. GIT
+- Tạo file gitignore theo ngôn ngữ: https://www.toptal.com
+
+
+2. CMD Windows
+- mkdir: tạo thư mực mới
+- cd: tới thư mục nào đó
+
+3. Webpack
+- Create a webpack.config.js file in the root directory
+- webpack dev server: This will create a development server for us and monitor our files for any changes during development.
+- sass-loader: convert our .scss to a .css file that the browser understands
+- mini-css-extract-plugin: abstracts all our CSS files into a single CSS file then injects the CSS into your rendered HTML output when you run the code.
+- webpack serve: chạy ở local
+- file-loader: will handle all the scenarios where we want to import an image or an SVG
+
+4. Yarn
+- yarn init -y: Khởi tạo 1 dự án NodeJS sử dụng Yarn
+- yarn add webpack --dev: Cài đặt package ở chế độ devDependencies(chỉ sử dụng khi dev)
+
+5. Visual Studio Code
+
+6. Resource
+- https://www.digitalocean.com/
+
+7. Babel
+- JavaScript hiện đại được viết bằng ES6 hoặc ES7, nhưng không phải trình duyệt nào cũng hiểu điều này.  
+Babel là một chuỗi công cụ được sử dụng để chuyển đổi mã ECMAScript 2015+ thành phiên bản JavaScript tương thích ngược trong các trình duyệt
+hoặc môi trường hiện tại và cũ hơn.
+- babel-loader: webpack loader that will transpile our ES6 code for us
+- We also need to set up our Babel config file, create a new file in the root directory called .babelrc
+
+

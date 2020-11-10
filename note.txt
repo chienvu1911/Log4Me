@@ -35,3 +35,4 @@ hoặc môi trường hiện tại và cũ hơn.
 - Switch will wrap the dynamic routes, This component will activate the correct route, much like the JavaScript switch statement.
 - Route component will configure specific routes and wrap the component that should render
 
+9. Axios
